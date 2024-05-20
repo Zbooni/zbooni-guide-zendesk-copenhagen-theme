@@ -81,7 +81,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Montserrat", sans-serif;
+  font-family: $text_font;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -189,7 +189,7 @@ template {
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: "Montserrat", sans-serif;
+  font-family: $text_font;
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -206,7 +206,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $heading_font;
   margin-top: 0;
 }
 
@@ -2145,7 +2145,7 @@ ul {
   word-break: break-word;
   word-wrap: break-word;
   display: flow-root;
-  font-family: "Montserrat", sans-serif;
+  font-family: $text_font;
   line-height: 1.6;
   overflow-x: auto;
 }
@@ -2454,7 +2454,7 @@ ul {
   content: attr(data-follower-count);
   color: $brand_color;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: $heading_font;
   margin-left: 15px;
   padding-left: 10px;
   position: absolute;
@@ -2686,7 +2686,7 @@ ul {
   margin-bottom: 30px;
 }
 .post-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: $text_font;
   line-height: 1.6;
   word-break: break-word;
 }
