@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
+  "name": "zbooni-guide-zendesk-copenhagen-theme",
   "author": "Zendesk",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -34,7 +34,7 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "#007AFF"
         },
         {
           "identifier": "hover_link_color",
